@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rental car RestAssured suite">
+
+  <test name="Rental car Test" >
+   
+  <classes>
+  	<!-- <class name="com.rental.car.TestBase"/>
+  	<class name="com.rental.car.StubMappings"/>  -->
+      <class name="com.rental.car.TestCases"/>
+    </classes>
+  </test>   <!-- Test -->
+  
+
+</suite> 

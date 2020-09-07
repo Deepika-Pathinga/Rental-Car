@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rental car RestAssured suite]">
+  <test thread-count="5" name="Rental car Test(failed)">
+    <classes>
+      <class name="com.rental.car.TestCases">
+        <methods>
+          <include name="getMappingsRequestAndResponse"/>
+          <include name="tearDown"/>
+          <include name="getRequest_Returnwith_LowestPerDayRent"/>
+          <include name="setUpWireMockServer"/>
+          <include name="getRequest_Returns_TeslaCarswithBlueColorandNotes"/>
+          <include name="getRequest_Returns_ListOfAllCars"/>
+        </methods>
+      </class> <!-- com.rental.car.TestCases -->
+    </classes>
+  </test> <!-- Rental car Test(failed) -->
+</suite> <!-- Failed suite [Rental car RestAssured suite] -->
