@@ -1,4 +1,4 @@
-
+Rental Question:
 The below represents the server response JSON schema from a web service written for a car rental company. 
 This is usually a lot more elaborate and decomposed but for the sake of this exercise below is the single response.
 Below is the schema definition
