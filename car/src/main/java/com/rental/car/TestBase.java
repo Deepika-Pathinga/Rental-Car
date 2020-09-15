@@ -7,7 +7,6 @@ import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.client.WireMock;
 
 public class TestBase {
-
 	
 	public static int iport = 8088;
 	public WireMockServer wireMockServer;
